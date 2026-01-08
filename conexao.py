@@ -6,6 +6,7 @@ class Conexao:
         return mysql.connector.connect(
             host="localhost",
             user="root",
-            password="admin",
+            password="suasenha",
             database="teste"
         )
+
